@@ -1,0 +1,16 @@
+//git tag: nos permite agregar etiquetas a nuestros cambios.
+-a para la anotación
+-m para el mensaje
+
+-l nos muestra la lista de etiquetas
+-f para renombrar
+-d para borrar
+//
+git log --oneline
+git log --oneline --graph
+//
+//quitar cambios del commit anterior
+git reset --soft "id_comit"
+git reset --mixed "id_comit" quita los cambios que se hicieron
+git reset --hard
+//
