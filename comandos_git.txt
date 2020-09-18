@@ -29,3 +29,14 @@ git branch -m namebranchedit newnamebranch : editar nombre de la rama
    git checkout -b "rama nueva"
 //
 
+//
+Crear llave
+ssh-keygen -t rsa -b 4096 -C "Email de github"
+copiar llave
+cat ~/.ssh/id_rsa.pub
+copiar en ssh de github
+//
+
+
+
+
